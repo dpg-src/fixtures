@@ -1,0 +1,22 @@
+{
+    "name": "dpg-src/fixtures",
+    "description": "Tool to create yml or sql fixtures from an existing database.",
+    "type": "library"
+    "keywords": ["fixtures", "yml", "sql"],
+    "homepage": "https://github.com/dpg-src/fixtures",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dpg-src",
+            "homepage": "https://github.com/dpg-src"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DpgSrc\\Fixtures\\": "src/"
+        }
+    }
+}
